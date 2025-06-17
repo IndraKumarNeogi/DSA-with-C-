@@ -1,0 +1,22 @@
+a=int(input("First Number:"))
+b=int(input("Second Number:"))
+op=input("Operation:")
+print("")
+if op == "+" :
+    print("Addition= ",a+b)
+elif op == "-" :
+    print("Subtraction= ",a-b)
+elif op == "*" :
+    print("Multiplication= ",a*b)
+elif op == "/" :
+    print("Division= ",a/b)
+elif op == "//" :
+    print("Floor Division= ",a//b)
+elif op == "%" :
+    print("Modulus= ",a%b)
+elif op == "**" :
+    print("Expontial= ",a**b) 
+else :
+    print("Syntax Error!!")
+    
+    
